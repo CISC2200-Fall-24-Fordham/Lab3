@@ -1,7 +1,8 @@
 #define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
 #include "AList.h"
 #include <cstdlib>
-#include <doctest.h>
+#include "doctest.h"
+
 
 #define SIZE 10
 
