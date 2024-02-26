@@ -36,4 +36,15 @@ TEST_CASE("AList") {
     CHECK(x == nums[0]);
     CHECK(L.getLast() == nums[SIZE - 1]);
   }
+
+  SUBCASE("assignment"){
+    ds::AList<int> N = L;
+
+    int size1 = L.size();
+    int first = L.getFirst();
+    N.addFirst(10);
+    check (L.size()==size1); //L is not changed
+    check (L.getFirst()==first); //L's first is unchanged 
+    check (N.getFirst()==10); //N's first is changed 
+  }
 }
