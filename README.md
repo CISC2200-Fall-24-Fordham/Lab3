@@ -27,7 +27,7 @@ Please implement the following member functions in the **AList.h**.
 2. Implement **getFirst()** member function
 3. Implement **removeFirst()**  member function
 4. Implement the copy constructor, note that you need to perform deep-copy
-5. (Extra credits:) Overload the assignment operator (i.e., copy assignment). 
+5. Implement the assignment operator. Note that you need to resize the array as needed, and perform deep-copy
    
 ## Hints
 
