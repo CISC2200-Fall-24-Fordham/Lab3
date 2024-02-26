@@ -77,8 +77,9 @@ public:
   void addFirst(ItemType x);
   ItemType &getFirst() const;
   ItemType removeFirst();
-};
 
+  AList<ItemType> &operator=(const AList<ItemType> &rhs);  
+}; 
 /** Copy constructor. */
 template <typename ItemType>
 AList<ItemType>::AList(const AList<ItemType> &other) {
@@ -105,6 +106,15 @@ template <typename ItemType> ItemType AList<ItemType>::removeFirst() {
   // TODO:
 }
 
+/**
+ * Assign one Alist (rhs) to current Alist
+ @return the current Alist
+*/
+template <typename ItemType>
+AList<ItemType> &operator=(const AList<ItemType> &rhs)
+{
+   //TODO by you 
+}
 } // namespace ds
 
 #endif // __ALIST_H__
