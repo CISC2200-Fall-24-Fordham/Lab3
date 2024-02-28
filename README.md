@@ -40,6 +40,10 @@ in order to test your member functions. You should take an incremental approach:
 
 ## Submission 
 
-Submit your **AList.h** file at the following link by xxxx, midnight (11:59pm). The autograder compiles and tests your programs using 
+Submit your **AList.h** file at the following link by March 5th, Tuesday, midnight (11:59pm).
+
+Submission link.
+
+The autograder compiles and tests your programs using 
 some testcases that are different from those in **main.cpp**. If your program fails some testcases, go back to review your code, and test your member functions
 with different inputs.
