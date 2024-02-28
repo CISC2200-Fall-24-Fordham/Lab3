@@ -43,8 +43,8 @@ TEST_CASE("AList") {
     int size1 = L.size();
     int first = L.getFirst();
     N.addFirst(10);
-    check (L.size()==size1); //L is not changed
-    check (L.getFirst()==first); //L's first is unchanged 
-    check (N.getFirst()==10); //N's first is changed 
+    CHECK (L.size()==size1); //L is not changed
+    CHECK (L.getFirst()==first); //L's first is unchanged 
+    CHECK (N.getFirst()==10); //N's first is changed 
   }
 }
