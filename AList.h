@@ -111,7 +111,7 @@ template <typename ItemType> ItemType AList<ItemType>::removeFirst() {
  @return the current Alist
 */
 template <typename ItemType>
-AList<ItemType> &operator=(const AList<ItemType> &rhs)
+AList<ItemType> & AList<itemType>::operator=(const AList<ItemType> &rhs)
 {
    //TODO by you 
 }
