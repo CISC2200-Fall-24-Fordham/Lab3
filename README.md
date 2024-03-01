@@ -31,12 +31,16 @@ Please implement the following member functions in the **AList.h**.
    
 ## Hints
 
-The **main.cpp** provided in this repository tests the above member functions and checks to see if the returned value or the list is changed as 
-expected by the function. 
+The **main.cpp** provided in this repository uses **doctests.h** framework to write testcases for the above five member functions. 
 
-You can modify the file **main.cpp** anyway you wish 
-in order to test your member functions. You should take an incremental approach: 
+You can modify the file **main.cpp** to add more testcases. 
 
+If you type **main.out**, all testcases are tested. 
+
+To run a particular subcase:
+```
+./main.out -tc="AList" -sc="addFirst"
+```
 
 ## Submission 
 
