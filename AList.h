@@ -10,6 +10,7 @@ class TestDriver; // for autograding only; please ignore
 
 /** Array-based list. */
 template <typename ItemType> class AList {
+
   friend class TestDriver<ItemType>; // for autograding only; please ignore
 
 private:
