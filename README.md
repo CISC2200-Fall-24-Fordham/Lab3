@@ -37,9 +37,9 @@ You can modify the file **main.cpp** to add more testcases.
 
 If you type **main.out**, all testcases are tested. 
 
-To run a particular subcase:
+To run a particular subcase, specify the testcase (AList), and the subcase name in the command line:
 ```
-./main.out -tc="AList" -sc="addFirst"
+./main.out -tc="AList" -sc="addFirst and getFirst"
 ```
 
 ## Submission 
