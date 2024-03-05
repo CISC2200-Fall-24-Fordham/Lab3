@@ -5,6 +5,9 @@ CXXFLAGS := -O0 -g -Wall -std=c++14 -Werror=return-type
 CXXFLAGS += -fsanitize=address -fno-omit-frame-pointer
 LDFLAGS  += -fsanitize=address -fno-omit-frame-pointer
 
+main.out: main.cpp AList.h
+	$(CXX) $(CXXFLAGS) main.cpp -o main.out
+
 %.out: %.cpp
 	$(CXX) $(CXXFLAGS) $^ -o $@
 
